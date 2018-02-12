@@ -1,0 +1,104 @@
+body                {margin: 0 auto;}  
+      
+.col-md-8           {background-color: white;
+                    color: gray;
+                    float: left;
+                    padding-left: 20px;
+                    padding-right: 25px;
+                    padding-top: 45px;
+                    width: 650px;}
+
+.col-md-8 h2        {color: teal;}
+
+.col-md-4           {background-color: white;
+                    color: teal;
+                    float: right;
+                    height: 190px;
+                    left: 150px;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    text-align: center;
+                    width: 270px;}
+
+.col-md-4 h2        {border-bottom: 2px solid lightgray;
+                    padding-bottom: 20px;} 
+
+.col-md-4 img       {width: 25%;}
+
+.container-fluid    {background-color: lightgray;
+                    height: 700px;
+                    padding: 50px 215px 50px 145px;}
+
+footer              {height: 105px;
+                    position: absolute;
+                    width: 100%;}
+
+#gray               {background-color: #666666;
+                    color: white;
+                    height: 95px;
+                    line-height: 95px;
+                    position: absolute;
+                    text-align: center;
+                    top: 10px;
+                    width: 100%;} 
+
+header              {height: 100px;
+                    padding-right: 115px;}
+
+header li           {border-right: 1px solid gray;}
+
+header ul           {position: absolute;
+                    right: 0;}
+
+input               {height: 20px;
+                    margin-bottom: 10px;
+                    width: 100%;}
+
+input[type=submit] {background-color: teal;
+                    color: white;
+                    height: 40px;
+                    width: 40%;}
+
+#nameTag            {background-color: teal;
+                    color: white;
+                    height: 100px;
+                    line-height: 100px;
+                    margin-left: 115px;
+                    text-align: center;
+                    width: 300px;}
+
+#nameTag h2         {position: relative;
+                    top: 25px;}
+
+#teal               {background-color: teal;
+                    height: 10px;}
+
+                    @media screen and (max-width: 768px) {
+                        .col-md-8 {
+                            float: none;
+                        }
+
+                        .col-md-8 img {
+                            width: 130%;
+                        }
+    
+                        .col-md-4 {
+                            
+                            float: none;
+                            margin-top: 15px;
+                            left: 0px;
+                        }      
+
+
+                        footer {
+                            height: 100px;
+                           
+                            width: 100%;
+                        }
+
+                        #nameTag {
+                            height: 110%;
+                        }
+
+                        
+                    }
