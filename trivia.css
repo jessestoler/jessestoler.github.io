@@ -1,0 +1,78 @@
+body {
+    background-color:blueviolet;
+}
+
+input {
+    height: 15px;
+    margin-top: 25px;
+    width: 15%;
+}
+
+
+
+.question {
+    background-color: pink;
+    float: right;
+    visibility: hidden;
+    width: 60%;
+}
+
+#questions {
+float: right;
+margin-top: 25px;
+
+}
+
+.result {
+background-color: pink;
+font-weight: bold;
+height: 35px;
+visibility: hidden;
+}
+
+
+#scoreboard {
+    background-color: lightgreen;
+    height: 90px;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding-top: 10px;
+    visibility: hidden;
+    width: 33%;
+}
+
+#timer {
+background-color: palegreen;
+float: left;
+font-size: 150%;
+font-weight: bold;
+height: 75px;
+left: 170px;
+line-height: 75px;
+position: absolute;
+top: 450px;
+visibility: hidden;
+width: 15%;
+}
+
+
+#wrapper {
+    background-color: yellow;
+    height: 2500px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 25px;
+    text-align: center;
+}
+
+#wrapper h2 {
+    color: red;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 365%;
+}
+
+#you {
+    visibility: hidden;
+}
