@@ -1,0 +1,119 @@
+#banner {
+    background-color: purple;
+    color: lightgreen;
+    height: 15%;
+    left: 0px;
+    padding-bottom: 15px;
+    position: fixed;
+    top: 25px;
+    width: 100%;
+    z-index: 1;
+}
+
+#blank {
+    float: left;
+}
+
+
+.break {
+    background-color: orange;
+    height: 55px;
+}
+
+#contact {
+    background-color: lightcyan;
+    height: 500px;
+    position: relative;
+    text-align: center;
+    top: -33px;
+}
+
+#featured {
+    background-color: lightcyan;
+    height: 350px;
+    padding: 15px;
+}
+
+#featured img {
+    height: 150px;
+    margin-right: 15px; 
+    width: 150px;
+}
+
+#figment {
+    float: right;
+}
+
+#footer {
+    background-color: orange;
+    height: 55px;
+    position: relative;
+    top: -32px;
+}
+
+input {
+    margin-bottom: 15px;
+    width: 325px;
+}
+
+.links {
+    float: right;
+    margin-right: 3%;
+    position: relative;
+    bottom: 125px;
+}
+
+.links img {
+    height: 45px;
+}
+
+#main {
+    background-color: lightcyan;
+    height: 500px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+#main h2 {
+    text-align: center;
+}
+
+#main img {
+    
+    height: 55%;
+    margin-top: 155px;
+    width: 25%;
+}
+
+#main p {
+    bottom: 55%;
+    left: 45%;
+    position: relative;
+    width: 480px;
+   
+}
+
+#message {
+    height: 175px;
+}
+
+#more {
+    background-color: orange;
+    height: 100px;
+    position: relative;
+    text-align: center;
+    top: -16px;
+}
+
+.myName {
+    
+    font-size: 250%;
+    text-align: center;
+}
+
+.wrapper {
+    margin-left: 3%;
+    margin-right: 3%;
+    
+}

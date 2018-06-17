@@ -1,76 +1,96 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="style.css" rel="stylesheet" type="text/css">    
+
+    <link href="public/styles.css" rel="stylesheet" type="text/css">    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <style>
-      
-    body    {height: 735px;} 
-            
-    footer  {top: 650px;}   
-            
-    #main     {height: 500px;}       
-        
-   #wrapper    {height: 525px;}         
-    </style>
-    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+   
+    <title>Jesse Stoler</title>
 </head>
 <body>
 
-<!--Title Card-->
-<header>
-<div id="myName">
-<h3>Jesse Stoler</h3>    
+
+<div id="banner">
+        
+        <div class="myName">
+                <p>Jesse Stoler</p>    
+        </div>
+
+        <div class="links">
+            <p>Connect with Me</p>
+            <a href="https://github.com/jessestoler"><img src="images/github.png"></a>
+            <a href="https://www.linkedin.com/in/jesse-stoler-540a6268/"><img src="images/linkedin.png"></a>
+
+        </div>
+
 </div>
 
-<!--Link Menu-->
-<div id="links">
-<ul>
-<a href="index.html">About</a>
-<a href="https://github.com/jessestoler">Portfolio</a>
-  
-</ul>    
-</div>
-</header>
 
-<div id="wrapper">
+
+<div class="wrapper">
 
 <!--Main Content-->    
 <div id="main">
-   <h2>About Me</h2> 
-<div id="mainLeft">     
+ 
  <img src="images/profile.png">
- </div>
 
- <div id="mainRight"> 
- <p>Hi, I'm Jesse Stoler. I'm from Pocatello, Idaho, and no, I don't need your 
-     pity. I started teaching myself to code about six months ago, and fell in 
-     love with it. It's both intellectually and creatively fulfilling.<br><br>I majored in journalism at
-     Idaho State University. I still don't know why I was stupid enough to do that. Since then, most of my
-     professional career has been working as a content marketer at various SEO/digital marketing agencies.
-     <br><br>Beyond the professional, I love to write recreationally, hike, and watch way too 
-     much basketball.</p>
-     </div>
+ <p>Hi, I'm Jesse Stoler. I'm originally from Pocatello, Idaho, but I now live in Denver, Colorado. I started teaching myself to code last year, and fell in 
+     love with it. It's both intellectually and creatively fulfilling. Currently, I can work with HTML, CSS, Javascript, Node.js, and MySQL. I will graduate from University of Denver's coding bootcamp this July.<br><br>I majored in journalism at
+     Idaho State University. Since then, most of my professional career has been working as a content marketer at various SEO/digital marketing agencies.
+     <br><br>Beyond the professional, I love to write recreationally, hike, and root hopelessly for the New York Knicks.</p>
 </div>
+<div class="break">
+</div>
+<div id="featured">
+<h2>Featured Projects</h2>
+<div id="blank">
+<h3>Blank Canvas</h3>
+<img src="images/blank.png">
+<img src="images/blankTwo.png">
+<p>A social network for artists looking to promote shows.</p>
+<a href="https://blankcanvas-43876.firebaseapp.com/">Check It Out</a>
+<a href="https://github.com/joshcoast/blankcanvas">Github Page</a>
 
-<!--Sidebar-->
-<div id="sidebar">
-<h2>Connect with Me</h2>
-<a href="https://github.com/jessestoler"><img src="images/github.png"></a>
-<a href="https://www.linkedin.com/in/jesse-stoler-540a6268/"><img src="images/linkedin.png"></a>
-<a href="https://stackoverflow.com/users/9248905/j-sto?tab=profile"><img src="images/stackOverflow.png"></a>     
+</div>
+<div id="figment">
+<h3>Figment.Observer</h3>
+<img src="images/figmentTwo.png">
+<img src="images/figment.png">
+<p>A short fiction platform where new writers can share their stories.</p>
+<a href="http://figment.observer/">Check It Out</a>
+<a href="https://github.com/joshcoast/figment">Github Page</a>
 </div>
 </div>
+<div id="more">
+    <p>Find More of My Work Here:</p>
+    <a href="https://github.com/jessestoler"><img src="images/github.png"></a>
+</div>
+<div id="contact">
+        <h2>Want to reach out? Fill out the form below, and I will get back to you as soon as possible.</h2>
+      <form>
+      Name<br>
+      <input id="name" type="text">
+      <br>
+      Email<br>
+      <input id="email" type="text">
+      <br>
+      Message<br>
+      <input id="message" type="text">
+      <br>
+      <input type="submit" value="Submit">    
+      </form>  
+      </div> 
+      <div id="footer">
+    </div>
+</div>   
 
-<!--Footer-->
-<footer>
-<div id="teal">
-</div>
-<div id="gray">
-<p>&copy;Copyright 2018 Jesse Stoler</p>    
-</div>    
-</footer>   
+ 
+
 </body>
 </html>
