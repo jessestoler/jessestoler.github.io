@@ -121,9 +121,7 @@ input {
 }
 
 @media screen and (max-width: 980px) {
-    body {
-        background-color: blue;
-    }
+  
 
     #main p {
         
@@ -136,9 +134,7 @@ input {
 
 @media screen and (max-width: 868px) {
 
-    body {
-        background-color: pink;
-    }
+    
 
     #featured img {
         height: 80px;
@@ -161,7 +157,7 @@ input {
 
 @media screen and (max-width: 640px) {
 
-    body {background-color: green;}
+    
 
     #main {
         height: 700px;
