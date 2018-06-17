@@ -13,6 +13,8 @@ $(document).ready(function(){
       var database = firebase.database();
       var saved = database.ref("Saved");
       var db = saved.push();
+
+      $("#submit").on("click", contact);
     
       function contact() {
             
