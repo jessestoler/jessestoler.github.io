@@ -17,13 +17,20 @@ $(document).ready(function(){
       $("#submit").on("click", contact);
     
       function contact() {
+
+        if ($("#name").val() == "" || $("#email").val() == "" || $("#message").val() == "") {
+            alert("Please fill in every field to continue");
+        }
+        else {
             
+            alert("Message received. Thank you!")
             db.set({
                 name: $("#name").val(), 
                 email: $("#email").val(),
-                message: $("#message").val(),
-                time: Date.now()
+                message: $("#message").val()
+                
               });
+            }
             
             }
 
