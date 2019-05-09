@@ -1,0 +1,275 @@
+#bio {
+    background-image: radial-gradient(circle, #777777, #7d7d7d, #838383, #8a8a8a, #909090);
+    border: 25px solid white;
+    color: white;
+    display: none;
+    height: 350px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 135px;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding: 10px;
+    width: 30%;
+}
+
+#bioClose {
+    
+    color: red;
+    left: 275px;
+    position: relative;
+    
+}
+
+#blank {
+    border-right: 1px solid black;
+}
+
+
+#blogClose {
+    color: red;
+    left: 285px;
+    position: relative;
+    
+}
+
+#blogIntro {
+    background-image: radial-gradient(circle, #777777, #7d7d7d, #838383, #8a8a8a, #909090);
+    border: 25px solid white;
+    color: white;
+    display: none;
+    height: 350px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 135px;
+    padding: 10px;
+    width: 30%;
+}
+
+
+body {
+    background-image: radial-gradient(circle, #777777, #7d7d7d, #838383, #8a8a8a, #909090);}
+
+.check {
+    border-right: 1px solid black;
+    padding-right: 6px;
+}
+
+.choices {
+    color: white;
+    height: 35%;
+    position: relative;
+    text-align: center;
+    top: 5px;
+    width: 100%;
+}
+
+.choices:hover {
+    -webkit-animation: flickerAnimation .5s infinite;
+    -moz-animation: flickerAnimation .5s infinite;
+    -o-animation: flickerAnimation .5s infinite;
+     animation: flickerAnimation .5s infinite;
+}
+
+#connect {
+    color: rgb(33, 231, 33);
+
+}
+
+
+#contact {
+  
+    position: relative;
+    top: 65px;
+    
+}
+
+#contactButton {
+    margin-top: 10px;
+}
+
+#contactClose {
+    color: red;
+    left: 115px;
+    position: relative;
+  
+}
+
+#contactForm {
+    background-image: radial-gradient(circle, #777777, #7d7d7d, #838383, #8a8a8a, #909090);
+    border: 25px solid white;
+    display: none;
+    height: 350px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 135px;
+    overflow: hidden;
+    overflow-y: scroll;
+    text-align: center;
+}
+
+#contactForm p {
+    font-weight: 600;
+}
+
+#east {
+    background-color: white;
+    height: 1%;
+    position: relative;
+    top: 40px;
+}
+
+#figment {
+    border-right: 1px solid black;
+}
+
+
+h4 {
+    position: relative;
+    top: 80px;
+    visibility: hidden;
+}
+
+#highlights {
+    background-color: white;
+    bottom: 95px;
+    display: none;
+    height: 300px;
+    margin-left: 15%;
+    margin-right: 15%;
+    overflow: hidden;
+    overflow-x: scroll;
+    padding-left: 20px;
+    padding-top: 20px;
+    position: absolute;
+    width: 70%;
+    z-index: 2;
+}
+
+#highlights img {
+    height: 100px;
+    width: 100px;
+}
+
+
+
+#jesse {
+    color: white;
+    font-family: 'Arapey', serif;
+    font-size: 160%;
+    text-align: center;
+}
+
+#left {
+    float: left;
+    height: 100%;
+    width: 33%;
+}
+
+
+
+#mainMenu {
+    background-color: black;
+    display: none;
+    height: 360px;
+    margin-left: 25%;
+    margin-right: 25%;
+    position: fixed;
+    top: 170px;
+    width: 50%;
+    z-index: -1;
+}
+
+#message {
+    height: 200px;
+}
+
+#name {
+    float: right;
+    margin-bottom: 30%;
+    margin-top: 10%;
+    position: relative;
+    right: 34%;
+    width: 30%;
+}
+
+#north {
+    background-color: white;
+    height: 95px;
+    left: 49%;
+    position: relative;
+    width: 1%;
+}
+
+#portfolio {
+ 
+    position: relative;
+    top: 65px;
+    
+}
+
+#portfolioClose {
+    color: red;
+    margin-left: 31%;
+    margin-top: 10px;
+    position: fixed;
+    text-align: center;
+}
+
+#right {
+    bottom: 0px;
+    height: 100%;
+    right: 0px;
+    position: absolute;
+    width: 33%;
+}
+
+#south {
+    background-color: white;
+    bottom: -170px;
+    height: 95px;
+    left: 49%;
+    position: relative;
+    width: 1%;
+}
+
+
+
+#west {
+    background-color: white;
+    height: 1%;
+    position: relative;
+    top: 40px;
+}
+
+
+
+
+@keyframes flickerAnimation {
+    0%   { color: white; }
+    25%  { color: purple; }
+    50%  { color: green; }
+    75%  { color: purple; }
+    100% { color: white; }
+  }
+  @-o-keyframes flickerAnimation{
+    0%   { color: white; }
+    25%  { color: purple; }
+    50%  { color: green; }
+    75%  { color: purple; }
+    100% { color: white; }
+  }
+  @-moz-keyframes flickerAnimation{
+    0%   { color: white; }
+    25%  { color: purple; }
+    50%  { color: green; }
+    75%  { color: purple; }
+    100% { color: white; }
+  }
+  @-webkit-keyframes flickerAnimation{
+    0%   { color: white; }
+    25%  { color: purple; }
+    50%  { color: green; }
+    75%  { color: purple; }
+    100% { color: white; }
+  }
